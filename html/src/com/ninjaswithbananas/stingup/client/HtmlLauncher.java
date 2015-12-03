@@ -1,9 +1,9 @@
-package com.millasta.stingup.client;
+package com.ninjaswithbananas.stingup.client;
 
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.backends.gwt.GwtApplication;
 import com.badlogic.gdx.backends.gwt.GwtApplicationConfiguration;
-import com.millasta.stingup.Sting Up;
+import com.ninjaswithbananas.stingup.StingUp;
 
 public class HtmlLauncher extends GwtApplication {
 
@@ -14,6 +14,6 @@ public class HtmlLauncher extends GwtApplication {
 
         @Override
         public ApplicationListener getApplicationListener () {
-                return new Sting Up();
+                return new StingUp();
         }
 }
